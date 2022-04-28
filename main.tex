@@ -1,0 +1,51 @@
+\include{Settings/Package}
+\begin{document}
+\setlength{\baselineskip}{20pt}%行间距
+\setlength{\parskip}{5pt}
+\input{Settings/Title}
+
+\section*{Introduction}
+To make land use design and planning more rational, a new type of design concept has been proposed: Geodesign. It combines digital technology with traditional geographic information systems, aiming to provide more analysis and decision-making options based on data visualisation \cite{bib1}. Meanwhile, the implementation of this concept requires specific tools to help, such as high-level programming languages, large data storage support and hardware that supports high concurrency and computing \cite{bib2}. The emergence of Geodesignhub opens up a new world for urban design and geographic data analysis. It not only inherits the essence of Geodesign, but also simplify the process of solving geographical-related problems and customize solutions for different practical situations \cite{bib3}. However, Geodesignhub is not omnipotent: It excels only in simple geographic data calculation computation, data migration and application, and visualization, but is powerless in complex data-analysis problems. For example, the software cannot directly calculate the similarity of the two areas, nor can it tell by name whether they are of the same type (residential land, school land or factory land). In this project, the functionality of Geodesignhub was extended using computer languages to perform deeper analysis of geographical data, such as geographic area similarity, semantic similarity of geographic area names. 
+
+\marginLeft{}
+The basic task of this project is to analyse geometry and text in two files and compare their properties. The comparison develops a set of matrices of similarity across four parameters: Taxonomy, Topology, Geography, Conceptual. In order to better judge the degree of compliance of each parameters, a five-level indicator was introduced: 1 means the data in two files has “low similarity” and 5 means “high similarity”. 
+
+
+\marginLeft{}
+This report is organized as follows: First, a literature review of the geographical analysis and related studies is given to find suitable investigation methods and experimental models. Then, basic data processing methods are introduced. After that, algorithms for implementing the project objects will be described in detail. Moreover, the performance of the algorithm on solving the problems will be evaluated. Lastly, reflections on the practicality and generalization of the algorithms, the rationality of the project process are drawn in the conclusion.  
+
+\section*{Literature Review}
+In urban planning, the development of design proposals is a fundamental aspect. It is a common problem in planning that design proposals are too subjective or controversial. In order to avoid it, the Planning and Compulsory Purchase Act, 2004, requires planners to submit a Design and Access Statement (DAS) with most applications. Paterson investigated whether the introduction of DAS was helping the design decision making process, using primary data from the north-east of England. The findings showed that DAS was useful but limited. More interactive communication and design for sustainability in the design process are desirable.
+
+Gordon, E. and Manosevitch, E introduced the concept of augmented deliberation and demonstrated its implementation in a pilot project. Designers and the local community gathered in a physical space and a virtual space simultaneously to discuss the design, enabling productive and meaningful public deliberation. Their research has demonstrated that this approach enhances the ability of non-specialist participants to understand the space, thus enabling the creation and sharing of local experiences and facilitating effective public deliberation. However, such an approach requires significant financial, technical, and physical resources which may not be feasible for all communities at all times.
+
+Cascetta E, Cartenì A, Pagliara F, et al studied that the planning of transport systems is a complex process. For transport decisions to be stable, transparent and participatory, they need to be well-structured and use quantitative analysis from the fields of engineering and economics.
+
+Yeh A G O introduced how GIS (Geographic Information System) help in planning. GIS is an operational and affordable planning information system. It is increasingly becoming an important component of planning support systems. Recent advances in the integration of GIS with planning models, visualization and the Internet will make GIS even more useful for planning. GIS can be applied at all stages of urban planning, enabling functions such as data management, visualization, spatial analysis, and modelling components of GIS varies.
+
+Based on a state of the art study and a thematic analysis of 114 articles, published in 2004–2014 and found through snowball sampling, Billger M, Thuvander L, Wästberg B S discussed the development and implementation of digital visualization tools for dialogue in planning. A wide range of examples of visualization tools for dialogue has been found; either based on 2D maps, 3D environments or gaming. There is a tendency for the usability studies to have gone from experimental and prototype studies to more and more concern real planning processes and implementation. Challenges are related to integration of qualitative and quantitative data, representation of data as regard appropriate levels of realism and detailing, as well as the user’s experience and the appearance of the digital models.
+
+Cai M conducted a systematic review of urban studies employing NLP published in peer-reviewed journals and conference proceedings. Natural Language Processing (NLP) has shown potential as a promising tool for harnessing underutilized urban data sources. the application of NLP to the study of cities is still in its infancy. Current applications fall into five areas: urban governance and management, public health, land use and functional areas, mobility and urban design. By mining the application of NLP in urban planning, it can be of great help to decision makers.
+
+
+\section* {Methodology}
+\subsection* {Data Set}
+\subsection*{Data Pre-processing and EDA}
+\subsection*{Measurement Criteria}
+
+\subsection*{Conceptual----wzy}
+\subsection*{Geographical---zhouzida}
+
+\subsection*{Geography and Conceptual Calculation---jiazhengwen}
+
+
+\section*{Evaluation and Discussion}
+
+\section*{Conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{file.bib}
+
+
+
+\end{document}
