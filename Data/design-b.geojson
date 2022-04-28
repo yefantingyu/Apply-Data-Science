@@ -1,0 +1,2387 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Nytt verksamhetsområde, gröna näringar",
+                "author": "geosurvey",
+                "diagramid": 53527,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "IND",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#742d9f"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.075703,
+                            55.660819
+                        ],
+                        [
+                            13.07562,
+                            55.663249
+                        ],
+                        [
+                            13.077914,
+                            55.662985
+                        ],
+                        [
+                            13.079386,
+                            55.662798
+                        ],
+                        [
+                            13.079305,
+                            55.659808
+                        ],
+                        [
+                            13.077891,
+                            55.659803
+                        ],
+                        [
+                            13.077823,
+                            55.660858
+                        ],
+                        [
+                            13.075703,
+                            55.660819
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Nytt verksamhetsområde, gröna näringar",
+                "author": "geosurvey",
+                "diagramid": 53527,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "IND",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#742d9f"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.080518,
+                            55.662706
+                        ],
+                        [
+                            13.084568,
+                            55.66224
+                        ],
+                        [
+                            13.084573,
+                            55.661729
+                        ],
+                        [
+                            13.080529,
+                            55.661699
+                        ],
+                        [
+                            13.080518,
+                            55.662706
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Vinstorp",
+                "author": "geosurvey",
+                "diagramid": 53531,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.079494,
+                            55.682583
+                        ],
+                        [
+                            13.08297,
+                            55.682607
+                        ],
+                        [
+                            13.084773,
+                            55.682196
+                        ],
+                        [
+                            13.08576,
+                            55.680962
+                        ],
+                        [
+                            13.086532,
+                            55.678784
+                        ],
+                        [
+                            13.086833,
+                            55.677114
+                        ],
+                        [
+                            13.083313,
+                            55.677114
+                        ],
+                        [
+                            13.079194,
+                            55.677429
+                        ],
+                        [
+                            13.077237,
+                            55.677811
+                        ],
+                        [
+                            13.078009,
+                            55.67936
+                        ],
+                        [
+                            13.077408,
+                            55.679433
+                        ],
+                        [
+                            13.079494,
+                            55.682583
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "2050Non",
+                "author": "geosurvey",
+                "diagramid": 53534,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.076037,
+                            55.687065
+                        ],
+                        [
+                            13.07844,
+                            55.686496
+                        ],
+                        [
+                            13.077818,
+                            55.686145
+                        ],
+                        [
+                            13.076595,
+                            55.685674
+                        ],
+                        [
+                            13.074557,
+                            55.684113
+                        ],
+                        [
+                            13.073097,
+                            55.68369
+                        ],
+                        [
+                            13.071145,
+                            55.685262
+                        ],
+                        [
+                            13.076037,
+                            55.687065
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Non2020B",
+                "author": "geosurvey",
+                "diagramid": 53535,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.094115,
+                            55.661707
+                        ],
+                        [
+                            13.098772,
+                            55.661675
+                        ],
+                        [
+                            13.097999,
+                            55.655913
+                        ],
+                        [
+                            13.092463,
+                            55.656567
+                        ],
+                        [
+                            13.092592,
+                            55.65969
+                        ],
+                        [
+                            13.094223,
+                            55.659641
+                        ],
+                        [
+                            13.094115,
+                            55.661707
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Non2050D",
+                "author": "geosurvey",
+                "diagramid": 53536,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.099866,
+                            55.673599
+                        ],
+                        [
+                            13.111968,
+                            55.673018
+                        ],
+                        [
+                            13.117461,
+                            55.672147
+                        ],
+                        [
+                            13.117976,
+                            55.671324
+                        ],
+                        [
+                            13.127418,
+                            55.668904
+                        ],
+                        [
+                            13.11626,
+                            55.662514
+                        ],
+                        [
+                            13.112054,
+                            55.666484
+                        ],
+                        [
+                            13.108277,
+                            55.666677
+                        ],
+                        [
+                            13.100467,
+                            55.664789
+                        ],
+                        [
+                            13.099866,
+                            55.673599
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Late20502",
+                "author": "geosurvey",
+                "diagramid": 53538,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.082764,
+                            55.689213
+                        ],
+                        [
+                            13.087356,
+                            55.689117
+                        ],
+                        [
+                            13.087442,
+                            55.688391
+                        ],
+                        [
+                            13.088043,
+                            55.688294
+                        ],
+                        [
+                            13.090274,
+                            55.686964
+                        ],
+                        [
+                            13.090661,
+                            55.687472
+                        ],
+                        [
+                            13.093708,
+                            55.687641
+                        ],
+                        [
+                            13.093965,
+                            55.687931
+                        ],
+                        [
+                            13.094909,
+                            55.687907
+                        ],
+                        [
+                            13.091562,
+                            55.686359
+                        ],
+                        [
+                            13.084266,
+                            55.687544
+                        ],
+                        [
+                            13.082163,
+                            55.687738
+                        ],
+                        [
+                            13.082764,
+                            55.689213
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Late20503",
+                "author": "geosurvey",
+                "diagramid": 53539,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.091948,
+                            55.678544
+                        ],
+                        [
+                            13.095682,
+                            55.677794
+                        ],
+                        [
+                            13.095253,
+                            55.67535
+                        ],
+                        [
+                            13.091605,
+                            55.676027
+                        ],
+                        [
+                            13.091047,
+                            55.676705
+                        ],
+                        [
+                            13.091948,
+                            55.678544
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Late20505",
+                "author": "geosurvey",
+                "diagramid": 53541,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.070759,
+                            55.690693
+                        ],
+                        [
+                            13.073827,
+                            55.690645
+                        ],
+                        [
+                            13.075844,
+                            55.690863
+                        ],
+                        [
+                            13.076488,
+                            55.690463
+                        ],
+                        [
+                            13.076745,
+                            55.689786
+                        ],
+                        [
+                            13.076638,
+                            55.688516
+                        ],
+                        [
+                            13.074342,
+                            55.687657
+                        ],
+                        [
+                            13.070608,
+                            55.688008
+                        ],
+                        [
+                            13.069793,
+                            55.688081
+                        ],
+                        [
+                            13.067926,
+                            55.688323
+                        ],
+                        [
+                            13.066982,
+                            55.688056
+                        ],
+                        [
+                            13.066639,
+                            55.688141
+                        ],
+                        [
+                            13.070759,
+                            55.690693
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Late20506",
+                "author": "geosurvey",
+                "diagramid": 53542,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.063624,
+                            55.68619
+                        ],
+                        [
+                            13.065727,
+                            55.687544
+                        ],
+                        [
+                            13.0668,
+                            55.687496
+                        ],
+                        [
+                            13.069546,
+                            55.685536
+                        ],
+                        [
+                            13.068731,
+                            55.684617
+                        ],
+                        [
+                            13.068516,
+                            55.68198
+                        ],
+                        [
+                            13.068216,
+                            55.681036
+                        ],
+                        [
+                            13.063624,
+                            55.68619
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "New housing",
+                "author": "geosurvey",
+                "diagramid": 53546,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.068201,
+                            55.667457
+                        ],
+                        [
+                            13.069982,
+                            55.667227
+                        ],
+                        [
+                            13.06803,
+                            55.664843
+                        ],
+                        [
+                            13.065991,
+                            55.66494
+                        ],
+                        [
+                            13.068201,
+                            55.667457
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Low dens",
+                "author": "geosurvey",
+                "diagramid": 53548,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.093972,
+                            55.687929
+                        ],
+                        [
+                            13.094938,
+                            55.687832
+                        ],
+                        [
+                            13.0935,
+                            55.686864
+                        ],
+                        [
+                            13.091934,
+                            55.686247
+                        ],
+                        [
+                            13.091354,
+                            55.686356
+                        ],
+                        [
+                            13.088736,
+                            55.68684
+                        ],
+                        [
+                            13.084831,
+                            55.68736
+                        ],
+                        [
+                            13.083415,
+                            55.687566
+                        ],
+                        [
+                            13.084037,
+                            55.687844
+                        ],
+                        [
+                            13.085518,
+                            55.688134
+                        ],
+                        [
+                            13.088071,
+                            55.688243
+                        ],
+                        [
+                            13.087192,
+                            55.687263
+                        ],
+                        [
+                            13.090281,
+                            55.686913
+                        ],
+                        [
+                            13.090711,
+                            55.687602
+                        ],
+                        [
+                            13.093908,
+                            55.687614
+                        ],
+                        [
+                            13.093972,
+                            55.687929
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "ldh4",
+                "author": "geosurvey",
+                "diagramid": 53549,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.087363,
+                            55.689183
+                        ],
+                        [
+                            13.087406,
+                            55.688348
+                        ],
+                        [
+                            13.084938,
+                            55.688191
+                        ],
+                        [
+                            13.083458,
+                            55.687804
+                        ],
+                        [
+                            13.083157,
+                            55.687586
+                        ],
+                        [
+                            13.082127,
+                            55.687634
+                        ],
+                        [
+                            13.082728,
+                            55.689158
+                        ],
+                        [
+                            13.087363,
+                            55.689183
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "ldh5",
+                "author": "geosurvey",
+                "diagramid": 53550,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.075812,
+                            55.690892
+                        ],
+                        [
+                            13.076585,
+                            55.690408
+                        ],
+                        [
+                            13.076778,
+                            55.689586
+                        ],
+                        [
+                            13.076692,
+                            55.688509
+                        ],
+                        [
+                            13.069246,
+                            55.689707
+                        ],
+                        [
+                            13.07077,
+                            55.690699
+                        ],
+                        [
+                            13.073945,
+                            55.690602
+                        ],
+                        [
+                            13.075812,
+                            55.690892
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "ldh7",
+                "author": "geosurvey",
+                "diagramid": 53551,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.065183,
+                            55.683784
+                        ],
+                        [
+                            13.061364,
+                            55.683421
+                        ],
+                        [
+                            13.062072,
+                            55.681703
+                        ],
+                        [
+                            13.066707,
+                            55.682139
+                        ],
+                        [
+                            13.065183,
+                            55.683784
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "1m wall",
+                "author": "geosurvey",
+                "diagramid": 53561,
+                "systag": "Agriculture, Forestry",
+                "sysname": "BI",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#71b8ff"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.061332,
+                            55.675304
+                        ],
+                        [
+                            13.066678,
+                            55.674743
+                        ],
+                        [
+                            13.068825,
+                            55.675357
+                        ],
+                        [
+                            13.070641,
+                            55.677155
+                        ],
+                        [
+                            13.07116,
+                            55.678791
+                        ],
+                        [
+                            13.073554,
+                            55.679148
+                        ],
+                        [
+                            13.074549,
+                            55.679179
+                        ],
+                        [
+                            13.071298,
+                            55.67871
+                        ],
+                        [
+                            13.07076,
+                            55.677132
+                        ],
+                        [
+                            13.068919,
+                            55.675311
+                        ],
+                        [
+                            13.066682,
+                            55.674684
+                        ],
+                        [
+                            13.061413,
+                            55.675209
+                        ],
+                        [
+                            13.060416,
+                            55.673607
+                        ],
+                        [
+                            13.062062,
+                            55.673246
+                        ],
+                        [
+                            13.062725,
+                            55.672841
+                        ],
+                        [
+                            13.064636,
+                            55.672638
+                        ],
+                        [
+                            13.063454,
+                            55.670619
+                        ],
+                        [
+                            13.06469,
+                            55.668064
+                        ],
+                        [
+                            13.064561,
+                            55.667806
+                        ],
+                        [
+                            13.063288,
+                            55.670617
+                        ],
+                        [
+                            13.064433,
+                            55.672565
+                        ],
+                        [
+                            13.062684,
+                            55.672681
+                        ],
+                        [
+                            13.062029,
+                            55.673146
+                        ],
+                        [
+                            13.06017,
+                            55.67359
+                        ],
+                        [
+                            13.061332,
+                            55.675304
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Near to Åkarp services",
+                "author": "geosurvey",
+                "diagramid": 53566,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.078451,
+                            55.651491
+                        ],
+                        [
+                            13.078537,
+                            55.649408
+                        ],
+                        [
+                            13.097935,
+                            55.651345
+                        ],
+                        [
+                            13.09639,
+                            55.655946
+                        ],
+                        [
+                            13.087721,
+                            55.657011
+                        ],
+                        [
+                            13.084631,
+                            55.655994
+                        ],
+                        [
+                            13.082142,
+                            55.653185
+                        ],
+                        [
+                            13.078451,
+                            55.651491
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Good spot for housing. Infrastructure and services..",
+                "author": "geosurvey",
+                "diagramid": 53567,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.022404,
+                            55.729913
+                        ],
+                        [
+                            13.024635,
+                            55.727593
+                        ],
+                        [
+                            13.030128,
+                            55.726723
+                        ],
+                        [
+                            13.032188,
+                            55.728753
+                        ],
+                        [
+                            13.030815,
+                            55.731363
+                        ],
+                        [
+                            13.022404,
+                            55.729913
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "New pre-school",
+                "author": "geosurvey",
+                "diagramid": 53569,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "INST",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#24496e"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.074095,
+                            55.651262
+                        ],
+                        [
+                            13.07358,
+                            55.648961
+                        ],
+                        [
+                            13.07461,
+                            55.64914
+                        ],
+                        [
+                            13.074803,
+                            55.64999
+                        ],
+                        [
+                            13.074975,
+                            55.651103
+                        ],
+                        [
+                            13.076262,
+                            55.651115
+                        ],
+                        [
+                            13.076327,
+                            55.651442
+                        ],
+                        [
+                            13.074932,
+                            55.651515
+                        ],
+                        [
+                            13.074095,
+                            55.651262
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Remodel villas into communes",
+                "author": "geosurvey",
+                "diagramid": 53571,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "HDH",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#843c0c"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.055191,
+                            55.659288
+                        ],
+                        [
+                            13.053818,
+                            55.657205
+                        ],
+                        [
+                            13.051329,
+                            55.65401
+                        ],
+                        [
+                            13.054848,
+                            55.653766
+                        ],
+                        [
+                            13.056393,
+                            55.656963
+                        ],
+                        [
+                            13.058367,
+                            55.65866
+                        ],
+                        [
+                            13.055191,
+                            55.659288
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "New residential housing",
+                "author": "geosurvey",
+                "diagramid": 53573,
+                "systag": "Small buildings, low density housing",
+                "sysname": "LDH",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#ffcc00"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.056693,
+                            55.701025
+                        ],
+                        [
+                            13.052908,
+                            55.699521
+                        ],
+                        [
+                            13.057002,
+                            55.698104
+                        ],
+                        [
+                            13.061311,
+                            55.698936
+                        ],
+                        [
+                            13.060229,
+                            55.702737
+                        ],
+                        [
+                            13.056693,
+                            55.701025
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Urban farming",
+                "author": "geosurvey",
+                "diagramid": 53574,
+                "systag": "Agriculture, Forestry",
+                "sysname": "AG",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#c2e699"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.071477,
+                            55.679726
+                        ],
+                        [
+                            13.070984,
+                            55.679581
+                        ],
+                        [
+                            13.071156,
+                            55.678335
+                        ],
+                        [
+                            13.070469,
+                            55.67652
+                        ],
+                        [
+                            13.071842,
+                            55.67635
+                        ],
+                        [
+                            13.072679,
+                            55.677609
+                        ],
+                        [
+                            13.07255,
+                            55.679097
+                        ],
+                        [
+                            13.071477,
+                            55.679726
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Forest garden",
+                "author": "geosurvey",
+                "diagramid": 53582,
+                "systag": "Agriculture, Forestry",
+                "sysname": "GI",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#006837"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.082678,
+                            55.679401
+                        ],
+                        [
+                            13.082507,
+                            55.678226
+                        ],
+                        [
+                            13.084331,
+                            55.677947
+                        ],
+                        [
+                            13.085532,
+                            55.677862
+                        ],
+                        [
+                            13.085382,
+                            55.678286
+                        ],
+                        [
+                            13.085489,
+                            55.679169
+                        ],
+                        [
+                            13.082678,
+                            55.679401
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Combined solar panels and agriculture",
+                "author": "geosurvey",
+                "diagramid": 53583,
+                "systag": "Agriculture, Forestry",
+                "sysname": "EI",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#cd329b"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.051045,
+                            55.709672
+                        ],
+                        [
+                            13.051766,
+                            55.707535
+                        ],
+                        [
+                            13.051904,
+                            55.70619
+                        ],
+                        [
+                            13.053251,
+                            55.706161
+                        ],
+                        [
+                            13.052573,
+                            55.703429
+                        ],
+                        [
+                            13.051303,
+                            55.700904
+                        ],
+                        [
+                            13.054367,
+                            55.700193
+                        ],
+                        [
+                            13.060255,
+                            55.70295
+                        ],
+                        [
+                            13.058856,
+                            55.708719
+                        ],
+                        [
+                            13.058882,
+                            55.710165
+                        ],
+                        [
+                            13.051045,
+                            55.709672
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Keep protected nature for recreation",
+                "author": "geosurvey",
+                "diagramid": 53585,
+                "systag": "Agriculture, Forestry",
+                "sysname": "GI",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#006837"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.056624,
+                            55.69449
+                        ],
+                        [
+                            13.063791,
+                            55.686609
+                        ],
+                        [
+                            13.06689,
+                            55.688438
+                        ],
+                        [
+                            13.069302,
+                            55.68792
+                        ],
+                        [
+                            13.074795,
+                            55.687287
+                        ],
+                        [
+                            13.077713,
+                            55.688269
+                        ],
+                        [
+                            13.068821,
+                            55.689773
+                        ],
+                        [
+                            13.06719,
+                            55.690644
+                        ],
+                        [
+                            13.0678,
+                            55.691138
+                        ],
+                        [
+                            13.059371,
+                            55.695351
+                        ],
+                        [
+                            13.056624,
+                            55.69449
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Solar panel park/agricultural land",
+                "author": "geosurvey",
+                "diagramid": 53586,
+                "systag": "Agriculture, Forestry",
+                "sysname": "EI",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#cd329b"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.078773,
+                            55.663559
+                        ],
+                        [
+                            13.075018,
+                            55.66345
+                        ],
+                        [
+                            13.079567,
+                            55.66299
+                        ],
+                        [
+                            13.083515,
+                            55.662385
+                        ],
+                        [
+                            13.084846,
+                            55.662216
+                        ],
+                        [
+                            13.08785,
+                            55.662192
+                        ],
+                        [
+                            13.087935,
+                            55.662615
+                        ],
+                        [
+                            13.087914,
+                            55.663015
+                        ],
+                        [
+                            13.087099,
+                            55.663511
+                        ],
+                        [
+                            13.085468,
+                            55.663511
+                        ],
+                        [
+                            13.078773,
+                            55.663559
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Agroforestry",
+                "author": "geosurvey",
+                "diagramid": 53587,
+                "systag": "Agriculture, Forestry",
+                "sysname": "AG",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#c2e699"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.038025,
+                            55.707485
+                        ],
+                        [
+                            13.051243,
+                            55.703129
+                        ],
+                        [
+                            13.051758,
+                            55.69965
+                        ],
+                        [
+                            13.056221,
+                            55.701388
+                        ],
+                        [
+                            13.060513,
+                            55.703132
+                        ],
+                        [
+                            13.057594,
+                            55.710092
+                        ],
+                        [
+                            13.048496,
+                            55.709804
+                        ],
+                        [
+                            13.038025,
+                            55.707485
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Combined solar panels and agriculture",
+                "author": "geosurvey",
+                "diagramid": 53590,
+                "systag": "Agriculture, Forestry",
+                "sysname": "EI",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#cd329b"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.093849,
+                            55.703361
+                        ],
+                        [
+                            13.097154,
+                            55.703656
+                        ],
+                        [
+                            13.096227,
+                            55.707225
+                        ],
+                        [
+                            13.09469,
+                            55.711427
+                        ],
+                        [
+                            13.09166,
+                            55.710939
+                        ],
+                        [
+                            13.090837,
+                            55.712626
+                        ],
+                        [
+                            13.086459,
+                            55.71119
+                        ],
+                        [
+                            13.088227,
+                            55.706654
+                        ],
+                        [
+                            13.093051,
+                            55.70708
+                        ],
+                        [
+                            13.093849,
+                            55.703361
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Highwaybuffer park",
+                "author": "geosurvey",
+                "diagramid": 53595,
+                "systag": "Agriculture, Forestry",
+                "sysname": "GI",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#006837"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.094172,
+                            55.682706
+                        ],
+                        [
+                            13.095675,
+                            55.679827
+                        ],
+                        [
+                            13.095531,
+                            55.672099
+                        ],
+                        [
+                            13.096275,
+                            55.668792
+                        ],
+                        [
+                            13.09679,
+                            55.667097
+                        ],
+                        [
+                            13.095675,
+                            55.665225
+                        ],
+                        [
+                            13.092442,
+                            55.664096
+                        ],
+                        [
+                            13.099394,
+                            55.664257
+                        ],
+                        [
+                            13.099709,
+                            55.668082
+                        ],
+                        [
+                            13.099365,
+                            55.671373
+                        ],
+                        [
+                            13.098621,
+                            55.678423
+                        ],
+                        [
+                            13.098106,
+                            55.682343
+                        ],
+                        [
+                            13.095989,
+                            55.685972
+                        ],
+                        [
+                            13.091669,
+                            55.685359
+                        ],
+                        [
+                            13.094172,
+                            55.682706
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Not to be used for other purposes than agriculture",
+                "author": "geosurvey",
+                "diagramid": 53598,
+                "systag": "Agriculture, Forestry",
+                "sysname": "AG",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#c2e699"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.102913,
+                            55.688278
+                        ],
+                        [
+                            13.098536,
+                            55.683972
+                        ],
+                        [
+                            13.101883,
+                            55.669308
+                        ],
+                        [
+                            13.10051,
+                            55.663063
+                        ],
+                        [
+                            13.119564,
+                            55.663741
+                        ],
+                        [
+                            13.118792,
+                            55.687214
+                        ],
+                        [
+                            13.114414,
+                            55.690262
+                        ],
+                        [
+                            13.102913,
+                            55.688278
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "suitable site for commerce/industries",
+                "author": "geosurvey",
+                "diagramid": 53600,
+                "systag": "Large buildings, Industry, commerce",
+                "sysname": "IND",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#742d9f"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.093386,
+                            55.683609
+                        ],
+                        [
+                            13.092613,
+                            55.684359
+                        ],
+                        [
+                            13.092313,
+                            55.685206
+                        ],
+                        [
+                            13.093514,
+                            55.685762
+                        ],
+                        [
+                            13.09566,
+                            55.686004
+                        ],
+                        [
+                            13.096819,
+                            55.68552
+                        ],
+                        [
+                            13.097763,
+                            55.682496
+                        ],
+                        [
+                            13.095102,
+                            55.681795
+                        ],
+                        [
+                            13.093386,
+                            55.683609
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Recreational/water capturing area",
+                "author": "geosurvey",
+                "diagramid": 53601,
+                "systag": "Agriculture, Forestry",
+                "sysname": "BI",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#71b8ff"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.073559,
+                            55.665042
+                        ],
+                        [
+                            13.072937,
+                            55.66483
+                        ],
+                        [
+                            13.070855,
+                            55.664479
+                        ],
+                        [
+                            13.069224,
+                            55.664467
+                        ],
+                        [
+                            13.068913,
+                            55.664267
+                        ],
+                        [
+                            13.068087,
+                            55.664346
+                        ],
+                        [
+                            13.067808,
+                            55.664128
+                        ],
+                        [
+                            13.070469,
+                            55.663826
+                        ],
+                        [
+                            13.071821,
+                            55.663735
+                        ],
+                        [
+                            13.073334,
+                            55.663874
+                        ],
+                        [
+                            13.074245,
+                            55.663868
+                        ],
+                        [
+                            13.074374,
+                            55.664806
+                        ],
+                        [
+                            13.073816,
+                            55.664733
+                        ],
+                        [
+                            13.073559,
+                            55.665042
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Flood capturing area",
+                "author": "geosurvey",
+                "diagramid": 53602,
+                "systag": "Agriculture, Forestry",
+                "sysname": "BI",
+                "areatype": "policy",
+                "diagramtype": "policy",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#71b8ff"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            13.06901,
+                            55.701775
+                        ],
+                        [
+                            13.064976,
+                            55.701098
+                        ],
+                        [
+                            13.061113,
+                            55.700662
+                        ],
+                        [
+                            13.053474,
+                            55.699501
+                        ],
+                        [
+                            13.054161,
+                            55.698341
+                        ],
+                        [
+                            13.057423,
+                            55.698582
+                        ],
+                        [
+                            13.059568,
+                            55.697131
+                        ],
+                        [
+                            13.0618,
+                            55.695196
+                        ],
+                        [
+                            13.068581,
+                            55.691568
+                        ],
+                        [
+                            13.072443,
+                            55.6951
+                        ],
+                        [
+                            13.075705,
+                            55.694906
+                        ],
+                        [
+                            13.080168,
+                            55.697905
+                        ],
+                        [
+                            13.076477,
+                            55.700711
+                        ],
+                        [
+                            13.073473,
+                            55.698921
+                        ],
+                        [
+                            13.07004,
+                            55.699115
+                        ],
+                        [
+                            13.06901,
+                            55.701775
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Summertime connection (boat bridge)",
+                "author": "geosurvey",
+                "diagramid": 53558,
+                "systag": "Roads, transport",
+                "sysname": "TRANS",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#0d0d0d"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.059204,
+                        55.676121
+                    ],
+                    [
+                        13.059139,
+                        55.675437
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Bike highway",
+                "author": "geosurvey",
+                "diagramid": 53559,
+                "systag": "Roads, transport",
+                "sysname": "TRANS",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#0d0d0d"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.037338,
+                        55.708007
+                    ],
+                    [
+                        13.045063,
+                        55.701913
+                    ],
+                    [
+                        13.050728,
+                        55.698431
+                    ],
+                    [
+                        13.057938,
+                        55.693013
+                    ],
+                    [
+                        13.068023,
+                        55.681055
+                    ],
+                    [
+                        13.067293,
+                        55.680426
+                    ],
+                    [
+                        13.066821,
+                        55.678297
+                    ],
+                    [
+                        13.066993,
+                        55.677602
+                    ],
+                    [
+                        13.067679,
+                        55.676295
+                    ],
+                    [
+                        13.070254,
+                        55.675659
+                    ],
+                    [
+                        13.066435,
+                        55.670674
+                    ],
+                    [
+                        13.065534,
+                        55.668253
+                    ],
+                    [
+                        13.05974,
+                        55.66197
+                    ],
+                    [
+                        13.056049,
+                        55.655773
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "Bike path",
+                "author": "geosurvey",
+                "diagramid": 53593,
+                "systag": "Roads, transport",
+                "sysname": "TRANS",
+                "areatype": "project",
+                "diagramtype": "project",
+                "fundingtype": "other",
+                "cost_override": 0.0,
+                "cost_override_type": "per hectare.",
+                "min_height": 0,
+                "max_height": 0,
+                "notes": "",
+                "color": "#0d0d0d"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        13.091519,
+                        55.685266
+                    ],
+                    [
+                        13.091991,
+                        55.684837
+                    ],
+                    [
+                        13.09242,
+                        55.684383
+                    ],
+                    [
+                        13.092946,
+                        55.683724
+                    ],
+                    [
+                        13.0933,
+                        55.683343
+                    ],
+                    [
+                        13.094448,
+                        55.682266
+                    ],
+                    [
+                        13.095113,
+                        55.68125
+                    ],
+                    [
+                        13.095682,
+                        55.680234
+                    ],
+                    [
+                        13.095928,
+                        55.679278
+                    ],
+                    [
+                        13.096025,
+                        55.678341
+                    ],
+                    [
+                        13.096014,
+                        55.677385
+                    ],
+                    [
+                        13.095928,
+                        55.676441
+                    ],
+                    [
+                        13.095767,
+                        55.67318
+                    ],
+                    [
+                        13.095843,
+                        55.671432
+                    ],
+                    [
+                        13.096004,
+                        55.670494
+                    ],
+                    [
+                        13.096122,
+                        55.669489
+                    ],
+                    [
+                        13.096443,
+                        55.666942
+                    ],
+                    [
+                        13.096229,
+                        55.665992
+                    ],
+                    [
+                        13.09581,
+                        55.665423
+                    ],
+                    [
+                        13.09522,
+                        55.664951
+                    ],
+                    [
+                        13.09433,
+                        55.664606
+                    ],
+                    [
+                        13.093343,
+                        55.664316
+                    ],
+                    [
+                        13.088815,
+                        55.663856
+                    ],
+                    [
+                        13.086551,
+                        55.663686
+                    ],
+                    [
+                        13.084127,
+                        55.663674
+                    ],
+                    [
+                        13.074846,
+                        55.663789
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ]
+}
