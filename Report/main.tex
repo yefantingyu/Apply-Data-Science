@@ -8,35 +8,212 @@
 To make land use design and planning more rational, a new type of design concept has been proposed: Geodesign. It combines digital technology with traditional geographic information systems, aiming to provide more analysis and decision-making options based on data visualisation \cite{bib1}. Meanwhile, the implementation of this concept requires specific tools to help, such as high-level programming languages, large data storage support and hardware that supports high concurrency and computing \cite{bib2}. The emergence of Geodesignhub opens up a new world for urban design and geographic data analysis. It not only inherits the essence of Geodesign, but also simplify the process of solving geographical-related problems and customize solutions for different practical situations \cite{bib3}. However, Geodesignhub is not omnipotent: It excels only in simple geographic data calculation computation, data migration and application, and visualization, but is powerless in complex data-analysis problems. For example, the software cannot directly calculate the similarity of the two areas, nor can it tell by name whether they are of the same type (residential land, school land or factory land). In this project, the functionality of Geodesignhub was extended using computer languages to perform deeper analysis of geographical data, such as geographic area similarity, semantic similarity of geographic area names. 
 
 \marginLeft{}
-The basic task of this project is to analyse geometry and text in two files and compare their properties. The comparison develops a set of matrices of similarity across four parameters: Taxonomy, Topology, Geography, Conceptual. In order to better judge the degree of compliance of each parameters, a five-level indicator was introduced: 1 means the data in two files has “low similarity” and 5 means “high similarity”. 
-
+The flow of the whole project was extremely well designed and performed. At the beginning, two design patterns were provided as the project's data sources. Several key features, which can be divided into textual features and numerical features, were extracted from these data sources. Text features include tags, labels, descriptions while numerical features are two-dimensional coordinate tuples containing latitude and longitude. Then, the similarity of the two design patterns in different focuses was analysed based these features. A set of matrices of similarity across four parameters was designed to measure the similarity: Taxonomy, Topology, Geography, Conceptual. In order to better judge the degree of compliance of each parameter, a five-level indicator was introduced: 
+"low similarity" was represented by number 1 and "high similarity" was represented by number 5.  Finally, the results of the experiments were sublimated and visualised so that these results can be used as direct indicators to facilitate rational decision-making process.
 
 \marginLeft{}
-This report is organized as follows: First, a literature review of the geographical analysis and related studies is given to find suitable investigation methods and experimental models. Then, basic data processing methods are introduced. After that, algorithms for implementing the project objects will be described in detail. Moreover, the performance of the algorithm on solving the problems will be evaluated. Lastly, reflections on the practicality and generalization of the algorithms, the rationality of the project process are drawn in the conclusion.  
+This report is organized as follows: First, a literature review of the geographical analysis and related studies is given to find suitable investigation methods and experimental models. Then, basic data processing methods are introduced. After that, different algorithm flows are designed for different similarity parameters. Moreover, the comparison of indicators on the four parameters is performed. Lastly, reflections on the practicality and generalization of the algorithms are discussed in the conclusion.  
 
 \section*{Literature Review}
-In urban planning, the development of design proposals is a fundamental aspect. It is a common problem in planning that design proposals are too subjective or controversial. In order to avoid it, the Planning and Compulsory Purchase Act, 2004, requires planners to submit a Design and Access Statement (DAS) with most applications. Paterson investigated whether the introduction of DAS was helping the design decision making process, using primary data from the north-east of England. The findings showed that DAS was useful but limited. More interactive communication and design for sustainability in the design process are desirable.
+In urban planning, the development of design proposals is a fundamental aspect. It is a common problem in planning that design proposals are too subjective or controversial. In order to avoid it, the bill \textit{the Planning and Compulsory Purchase Act, 2004}, requires planners to submit a Design and Access Statement (DAS) with most applications. Paterson\cite{bib4} investigated whether the introduction of DAS was helping the design decision making process, using primary data from the north-east of England. The findings showed that DAS was useful but limited. More interactive communication and design for sustainability in the design process are desirable.
 
-Gordon, E. and Manosevitch, E introduced the concept of augmented deliberation and demonstrated its implementation in a pilot project. Designers and the local community gathered in a physical space and a virtual space simultaneously to discuss the design, enabling productive and meaningful public deliberation. Their research has demonstrated that this approach enhances the ability of non-specialist participants to understand the space, thus enabling the creation and sharing of local experiences and facilitating effective public deliberation. However, such an approach requires significant financial, technical, and physical resources which may not be feasible for all communities at all times.
+Recently, strengthening the links between planners and communities has become an important topic in planning. Gordon and Manosevitch\cite{bib5} introduced the concept of augmented deliberation and demonstrated its implementation in a pilot project. Designers and the local community gathered in a physical space and a virtual space simultaneously to discuss the design, enabling productive and meaningful public deliberation. Their research has demonstrated that this approach enhances the ability of non-specialist participants to understand the space, thus enabling the creation and sharing of local experiences and facilitating effective public deliberation. However, such an approach requires significant financial, technical, and physical resources which may not be feasible for all communities at all times.
 
-Cascetta E, Cartenì A, Pagliara F, et al studied that the planning of transport systems is a complex process. For transport decisions to be stable, transparent and participatory, they need to be well-structured and use quantitative analysis from the fields of engineering and economics.
+Various aspects of planning can be complex processes. For example, for transport planning decisions to be stable, transparent and participatory, they need to be well-structured and use quantitative analysis from the fields of engineering and economics.\cite{bib6}
 
-Yeh A G O introduced how GIS (Geographic Information System) help in planning. GIS is an operational and affordable planning information system. It is increasingly becoming an important component of planning support systems. Recent advances in the integration of GIS with planning models, visualization and the Internet will make GIS even more useful for planning. GIS can be applied at all stages of urban planning, enabling functions such as data management, visualization, spatial analysis, and modelling components of GIS varies.
+GIS (Geographic Information System) has been gradually introduced into the planning field in recent years, providing planners with a variety of convenient functions.\cite{bib7} GIS is an operational and affordable planning information system. It is increasingly becoming an important component of planning support systems. Recent advances in the integration of GIS with planning models, visualization and the Internet will make GIS even more useful for planning. GIS can be applied at all stages of urban planning, enabling functions such as data management, visualization, spatial analysis, and modelling components of GIS varies.
 
-Based on a state of the art study and a thematic analysis of 114 articles, published in 2004–2014 and found through snowball sampling, Billger M, Thuvander L, Wästberg B S discussed the development and implementation of digital visualization tools for dialogue in planning. A wide range of examples of visualization tools for dialogue has been found; either based on 2D maps, 3D environments or gaming. There is a tendency for the usability studies to have gone from experimental and prototype studies to more and more concern real planning processes and implementation. Challenges are related to integration of qualitative and quantitative data, representation of data as regard appropriate levels of realism and detailing, as well as the user’s experience and the appearance of the digital models.
+Based on a state-of-the-art study and a thematic analysis of 114 articles, published in 2004–2014 and found through snowball sampling, Billger, Thuvander and Wästberg\cite{bib8} discussed the development and implementation of digital visualization tools for dialogue in planning. A wide range of examples of visualization tools for dialogue has been found; either based on 2D maps, 3D environments or gaming. There is a tendency for the usability studies to have gone from experimental and prototype studies to more and more concern real planning processes and implementation. Challenges are related to integration of qualitative and quantitative data, representation of data as regard appropriate levels of realism and detailing, as well as the user’s experience and the appearance of the digital models.
 
-Cai M conducted a systematic review of urban studies employing NLP published in peer-reviewed journals and conference proceedings. Natural Language Processing (NLP) has shown potential as a promising tool for harnessing underutilized urban data sources. the application of NLP to the study of cities is still in its infancy. Current applications fall into five areas: urban governance and management, public health, land use and functional areas, mobility and urban design. By mining the application of NLP in urban planning, it can be of great help to decision makers.
+ Natural Language Processing (NLP) has shown potential as a promising tool for harnessing underutilized urban data sources\cite{bib9}. The application of NLP to the study of urban design is still in its infancy. Current applications fall into five areas: urban governance and management, public health, land use and functional areas, mobility and urban design. By mining the application of NLP in urban planning, it can be of great help to decision makers.
 
 
 \section* {Methodology}
 \subsection* {Data Set}
+
+
+
+
 \subsection*{Data Pre-processing and EDA}
+EDA不做了，就当
+数据预处理的时候只要sysname和Description
 \subsection*{Measurement Criteria}
 
-\subsection*{Conceptual----wzy}
-\subsection*{Geographical---zhouzida}
+\subsection*{Taxonomy----wzy}
+1. 我们根据sysnmae去判断same idea。。。。 sysname完全相同： sysname完全相同就叫same idea 4级，description，不是相似，4级，是相似5级。snameidea， descriotion   333.3一级，判断
+The similarity of taxonomy with regard to the designs is that the locations and places can be categorised into the same group. A very direct example is that a place for ``school" and an area that is projected to be a ``campus" can be naturally grouped together. The reason is that both of them represents the same idea. Although the two schools may be situated in very different places, can be designed for different area, they both stand for education institutes and are obviously not identical to places with other idea like ``industrial plants".
+\par
+It can be found that finding taxonomy similarity mainly focuses on the description, comments or labels of each figure in the designs and can neglect other geometric attributes. That is, the textual attributes in the design is the key for defining taxonomy similarity and therefore, natural language process (NLP) and text mining methodology can be exploited for obtaining similarity of taxonomy.
+\par
+From the perspective of text mining, it can be seen that the similarity of taxonomy against textual information is to gather the text with same meaning into groups, which can be also regraded as finding synonyms. In other words, the problem of finding latent taxonomy similarity in the two designs can be solved by finding the similarity of the textual attributes of each design using NLP algorithm.
+\par
+Since the textual information of each shape in the designs are stored in attribute Description and hence, the description of each figure is utilise for finding taxonomy similarity using NLP approaches. 
 
-\subsection*{Geography and Conceptual Calculation---jiazhengwen}
+实体（entity）,包括线和多边形，把shape换成entity？
+
+
+The core idea for finding taxonomy similarity between descriptions is to convert them into word vectors and thereby the distance between the vectors can be computed, where the distance is directly correlated to similarity of taxonomy.
+\par
+In terms of the method of embedding descriptions into vectors, Global Vectors for Word Representation algorithm (GloVe) is adopted. GloVe is an unsupervised learning method based on word count based and overall statistics, which can capture the latent analogy and synonym between words \cite{pennington2014glove}. After obtaining word vectors, the description can be embedded into a vector by adding the vector of its words. The following formula shows the process of embedding description into vectors:
+$${\rm vec}(d)=\sum_{i=1}^{n}{\rm vec}(w_i)$$
+where $d$ is a description of a figure and it is composed by words $w_1,w_2,...,w_n$.
+\par
+For the metric of distance between vectors, the cosine similarity is used, which can expressed by the following formula:
+$$s={\rm cos}(\theta)=\frac{|v_1\cdot v_2|}{||v_1||||v_2||}$$
+where $s$ is similarity and $v_1$,$v_2$ are the vectors for two descriptions. The value of cosine similarity is corresponding the taxonomy similarity and if the value is closer to 1, then the two descriptions are very similar, otherwise, they hardly have the same idea. 
+\par
+By inputting the textual data of the given geojson files, the taxonomy similarity can be visualised by the following heat map.
+\par
+It can be found that the designs with the same descriptions definitely feature maximum similarity for taxonomy, for example, New Housing. And the descriptions with similar meanings also achieves high similarity like Bike Lane and Bike Path. Besides, the designs with irrelevant textual attributes, such as New River and Bike Highway, display less similarity score, which is also not out of expectation in real world. 
+\subsection*{Topology---zhouzida}
+In addition to the textual attributes, the main difference between the designs is located in the geometric attributes. This project uses the json file outputted from QGIS as the dataset, where the main geometric attribute is the coordinates attribute. Coordinates are the set of latitude and longitude of multiple corner points. The entities in the design scheme are lines (roads) and polygons (areas). (Whether an entity is a road or an area can be judged by determining whether the start and end points of each entity's "coordinates property" are the same.)
+
+Topological similarity is defined as the similarity of different geometry for the same place. In practical planning work, for practical purposes and due to various factors, entities are often designed as irregular polygons or folds. Therefore, a comparison of the similarity of entities in geometry should focus on the ratio of the overlapping area of the same places in the two scenarios to the total area of the planned area. The following part of this section focuses the derivation and presentation of the algorithm on polygons.
+（要讨论：要不要研究线？我们要怎样去认为两条线是一样的？比如说某条折线的某段直线，必须完全重合才认为一样？如果斜率和长度一样，坐标偏移了一点点，能认为是一样吗？能简单和多边形类比吗？）
+
+The main challenge of this part of the work is to derive a method for calculating the area of a polygon when the coordinates of the corner points of the polygon are known. The derivation starts with the simplest polygon, the triangle, and is then extended a method for calculating the area that can be applied to all general polygons.
+
+Calculation using matrix determinants is at the heart of this part of the algorithm. The geometric meaning of a matrix determinant is the directed area of a parallelogram with two vectors as a set of neighbors. (Directed in the sense that the area is positive if the second vector is rotated 0 to 180° counterclockwise with respect to the first vector, and negative if the second vector is rotated 0 to 180° clockwise with respect to the first vector.)
+
+Suppose there is a general triangle and we set up a rectangular coordinate system to place this triangle in it. First, we assume that the origin O lies inside the triangle (the case where the origin is outside the triangle will be described later).
+
+(插入图片)
+
+Then the area of $S_{\triangle ABC}$ is split into $S_{\triangle AOB}$, $S_{\triangle AOC}$ and $S_{\triangle BOC}$. Let’s focus first on one of these, $S_{\triangle AOB}$.
+
+(插入图片）
+
+Taking AB as the axis of symmetry and flipping $S_{\triangle ABC}$, the area of parallelogram AOBC can be expressed in matrix determinant as:
+
+\begin{equation}
+\begin{split}
+S_{\parallelogram AOBC}=\begin{vmatrix}
+  x_{A} &x_{B}  \\
+  y_{A} &y_{B} 
+\end{vmatrix}
+\end{split}
+\end{equation}
+
+So that the area of $\triangle AOB$ is half of it;
+
+\begin{equation}
+\begin{split}
+S_{\triangle ABC} =\frac{\begin{vmatrix}
+  x_{A} &x_{B}  \\
+  y_{A} &y_{B} 
+\end{vmatrix}}{2}=x_{A}y_{B}-x_{B}y_{A}  
+\end{split}
+\end{equation}
+
+The area of $\triangle AOC$ and $\triangle BOC$is calculated in the same way, and then we get:
+
+\begin{equation}
+\begin{split}
+S_{\triangle ABC}
+&=S_{\triangle AOB}+S_{\triangle BOC}+S_{\triangle COA}\\
+&=\frac{\begin{vmatrix}
+  x_{A} &x_{B}  \\
+  y_{A} &y_{B} 
+\end{vmatrix}+\begin{vmatrix}
+  x_{B}& x_{C}\\
+  y_{B}&y_{C}
+\end{vmatrix}+\begin{vmatrix}
+  x_{C}&x_{A} \\
+  y_{C}&y_{A}
+\end{vmatrix}}{2}\\
+&=\frac{(x_{A}y_{B}-x_{B}y_{A})+(x_{B}y_{C}-x_{C}y_{B}) +(x_{C}y_{A}-x_{A}y_{C})  }{2}\\
+&=\frac{(x_{A}y_{B}+x_{B}y_{C}+x_{C}y_{A})-(x_{B}y_{A}+x_{C}y_{B}+x_{A}y_{C})}{2}
+\end{split}
+\end{equation}
+
+When the origin O is outside triangle ABC, there will be a sub-triangle whose area determinant is negative, so the formula still applies when brought into $\triangle ABC$.
+
+This area calculation method can be extended to any polygon. Given a general polygon, it can be divided into multiple triangles. The area of the polygon can be obtained by summing the areas of these triangles using the matrix determinant.
+The formula is:
+\begin{equation}
+\begin{split}
+S_{Polygon}= \left | \frac{(x_{1}y_{2} +x_{2}y_{3}+...+x_{n}y_{1} )-(x_{1}y_{n} +x_{2}y_{1}+...+x_{n}y_{n-1})}{2}  \right | 
+\end{split}
+\end{equation}
+
+where i=1,2,...,n denotes the i-th point and ($x_{i}$, $y_{i}$) denotes the coordinates of the i-th point.
+
+After discussing how to calculate the area of a polygon using corner point coordinates, the next step is to discuss the calculation of topological similarity.
+
+Suppose there are two planning designs, D1 and D2, and the sites they are planning to develop are called Area1 and Area2, with areas S1 and S2 respectively, and the area planned to be developed in both schemes is called Overlapping Area, which has an area of S3.
+Then the topological similarity formula for these two planning designs is:
+\begin{equation}
+\begin{split}
+(待讨论)
+\end{split}
+\end{equation}
+
+\subsection*{Geography and Conceptual}
+The Topology and Taxonomy algorithms introduced before are the basis for the implementation of Geography and Conceptual. Taxonomy gives a specific meaning to the concept of "same idea": when comparing the nature of regions in two files, if the two regions have the same "sysname attribute", then they have the same idea. Topology section provides a complete method for calculating the area of a region against a json file. Based on this, the whole team devised a clever method to calculate the overlapping area. This method will also be used in the calculation of Geography and Conceptual areas.
+
+\subsubsection*{Geography}
+Geography measures the degree of theme repeat in different places (in this report, idea is the same as theme). In other words, it measure the ratio of area with the same theme to the total area. The calculation of Geography can be illustrated by using a small example. Picture 1 shows that the area in a file has three types of theme/idea: $A,B,C$ while the area in the other file has 3 themes: $A,B,E$. The individual parameters in the two files are shown in Table 2(2 or 1?):
+\begin{table}[H]
+\centering
+\caption{The parameters for the example}
+\label{tab:my-table}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+       & Total Area & Area for A & Area for B & Area for C & Area for D & Area for E \\ \hline
+File 1 &    $S_{file1}$       &     $S_{A1}$       &    $S_{B1}$          &       $S_{C1}$       &           $S_{D1}$   &    $S_{E1}$          \\ \hline
+File 2 &   $S_{file2}$         &    $S_{A2}$        &     $S_{B2}$       &   $S_{C2}$     &       $S_{D2}$     &    $S_{E2}$        \\ \hline
+\end{tabular}
+\end{table}
+The overlapping area of the A theme in between the two files can be expressed as:
+$$
+S_{Overlapping(A)}=min(S_{A1},S_{A2})
+$$
+Then, the geometry of the A theme can be represented as:
+$$
+G(A) = \frac{2S_{Overlapping(A)}}{S_{A1}+S_{A2}}
+$$
+Calculating the Geometry between two files is to calculate the weighted average of individual topics, so the whole structure can be expressed as：
+\begin{equation}
+    \begin{split}
+        G(A,B,C,D,E,F) & =  {\frac{2S_{Overlapping(A)}}{S_{A1}+S_{A2}}} \times {\frac{S_{A1}+S_{A2}}{S_{file1}+S_{file2}}} +
+        {\frac{2S_{Overlapping(B)}}{S_{B1}+S_{B2}}} \times {\frac{S_{B1}+S_{B2}}{S_{file1}+S_{file2}}}\\
+        & + {\frac{2S_{Overlapping(C)}}{S_{C1}+S_{C2}}} \times {\frac{S_{C1}+S_{C2}}{S_{file1}+S_{file2}}} +
+        {\frac{2S_{Overlapping(D)}}{S_{D1}+S_{D2}}} \times {\frac{S_{D1}+S_{D2}}{S_{file1}+S_{file2}}}\\
+        &+ {\frac{2S_{Overlapping(E)}}{S_{E1}+S_{E2}}} \times {\frac{S_{E1}+S_{E2}}{S_{file1}+S_{file2}}}\\
+        & = \frac{2(Overlapping(A)+Overlapping(B)+Overlapping(C)+Overlapping(D)+Overlapping(E))}{S_{file1}+S_{file2}}
+    \end{split}
+\end{equation}
+It can be seen that for this example, the results are only related to having different kinds of overlapping areas. We extend this result to the real project problem. The project has 8 categories of area, which can be expressed as:
+$$
+C = \{A,B,C,D,E,F,G\}
+$$
+Using the previous Topology calculation for area, the total area for the two files and the area of each category area can be derived separately.
+$$
+S_1=\{S_{file1},S_{A1},S_{B1},S_{C1},S_{D1},S_{E1},S_{F1},S_{G1}\}\\
+S_2=\{S_{file2},S_{A2},S_{B2},S_{C2},S_{D2},S_{E2},S_{F2},S_{G2}\}
+$$
+The geometry for a single them can be expressed as:
+$$
+G_{C_{i}}=min(S_{C_{i1}},S_{C_{i2}}) \;  C_i \in C 
+$$
+The geometry for the two files can be expressed as
+$$
+G(A,B,C,D,E,F,G) =  \sum\limits_{{C_i} \in C} {\min ({S_{{C_{i1}}}},{S_{{C_{i2}}}})} 
+$$
+
+\subsubsection*{Conceptual}
+Conceptual measures different kinds of ideas for the same place. For Pic 1 and Pic 2 is a simple example, pic1 comes from file1 and pic2 comes from file2. Pic 3, on the other hand, represents the case of image overlap. The shaded part of Pic3 represents the same place: Overlap of polygons. Figure 4 shows the situation after extraction. In each shaded part, there may be multiple themes, or ideas. Conceptual mainly compares whether two files have the same them in the same area. Conceptual mainly compares whether two files have the same theme in the same area. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section*{Evaluation and Discussion}
