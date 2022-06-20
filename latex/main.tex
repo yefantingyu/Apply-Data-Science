@@ -190,7 +190,61 @@ After discussing how to calculate the area of a polygon using corner point coord
 
 Suppose there are two planning designs to compare, D1 and D2, and the sites they are planning to develop are called Area1 and Area2, with areas S1 and S2 respectively, and the area planned to be developed in both schemes is called Overlapping Area, which has an area of S3.
 
-It should be noted that the area S3 of the overlapping area between the two proposals requires a solution algorithm to be devised. It is a typical problem of solving for the intersection of polygons and has some computational complexity. We have designed the following solution algorithm:
+It should be noted that the area S3 of the overlapping area between the two proposals requires a solution algorithm to be devised. It is a typical problem of solving for the intersection of polygons and has some computational complexity. We have designed the  solution algorithm to calculate the intersection of polygons.Its proof process is very cumbersome, so here we will directly give the concepts required by the algorithm and some properties used by the algorithm.
+The specific relevant proof process is proved in detail in the paper by Zhu Ya-Yin\cite{bib10}.
+
+The concepts used in the algorithm include:
+
+1. $\partial A$: The set of sides of a polygon A, or the set of points on the boundary of A;
+
+2. P$\downarrow$: A vertical downward ray through point P;
+
+3. <: Less-than comparator for point, P < Q (Px < Qx )\vee (Px =Qx \wedge  Py < Qy);
+
+4. $P_{x},P_{y}$: Horizontal and vertical coordinates of P;
+
+5. e, s: sides;
+
+6. Lp(e): the left endpoint of e, i.e. the smaller of the two endpoints of e;
+
+7. Rp(e): the right endpoint of e, i.e. the bigger of the two endpoints of e;
+
+8. I(e): The set of points within e (points on e other than endpoints);
+
+9. $C(P , \partial A) $: the set of edges of A with intersection with P$\downarrow$ and whose right endpoint is not on P$\downarrow$;
+
+10. $s_{1} \quad  >P \quad s_{2}$: Comparison of the sides $s_{1}$ , $s_{2}$ on the perpendicular line x = Px through the point P, i.e. $s_{1} \quad  >P \quad s_{2} \quad (Q1 >Q2)\vee  (Q_{1}  =Q_{2}  \wedge Ks_{1}  >Ks_{2} )$, where Points $Q_{1}$ , $Q_{2}$ denote the intersection of sides $S_{1}$ , $S_{2}$ with the vertical line through point P, and $Ks_{1}$ , $Ks_{2}$ denote the slopes of $S_{1}$ , $S_{2}$ respectively;  
+
+11. $max(C(P , \partial A))$: the largest edge in $C(P , \partial A)$ at point P.
+
+Theorems and properties used in the algorithm include:
+
+1. For any edge of polygon A, let P be the interior point of e. If $C(P , \partial A)$ has an odd number of edges, then e is said to be an odd edge of A, abbreviated as +e, otherwise e is said to be an even edge of A, abbreviated as -e.
+
+2. For any two edges $s_{1}, s_{2}\in  C(P,\partial A)$, $s_{1}$ , $s_{2}$ have different parity in A if $s_{2}$ is the largest edge smaller than $s_{1}$ at point P , i.e. $s_{1}$ >P $s_{2}$ , and there is no edge $e\in  C(P,\partial A)$ such that $s_{1}$ >P e , e >P $s_{2}$ hold simultaneously.
+
+3. For any point P not on the boundary of polygon A, if the largest side of the perpendicular downward ray made through the point P which intersects polygon A is an even side, or does not intersect any side of A, then P is in the outer domain of polygon A, and vice versa; if the largest side of the ray which intersects A is an odd side, then P is in the inner domain of polygon A, and vice versa.
+
+4. interior edge: all interior points of e lie in the interior domain of A. $P , \quad P\in  I(e)\quad P \in  I (A)$.
+
+5. exterior edge: all interior points of e lie in the exterior domain of A. $P , \quad P\in  I(e)\quad P \in  E (A)$.
+
+6. Overlapping sides: $s , s \in  A , P , P \in  e \ P \in  s$.
+
+7. Simple edges: interior edges, exterior edges, overlapping edges.
+
+8. Complex edges: any other edges that are not simple edges.
+
+General flow of the algorithm:
+
+1. While scanning the plane, the intersection points (including tangents) of A , B are calculated, and the complex edges are decomposed into simple edges. Meanwhile, the parity of the edges of A , B and their topology types are determined according to Algorithms 1 and 2 , and recorded in the data structure;
+
+2. For the specific computational characteristics of the intersection of polygons, edge tracing is performed according to Algorithm 2-11, and the intermediate polygons forming $A \cap  B$ are output;
+
+3. Construct the border of each intermediate polygon in turn, and determine the direction of the intermediate polygon. Determine whether it is a hole or an external polygon according to the theorems and properties.
+
+4. Determine the containment relationship between the hole Border and the outer polygon Border to determine which outer polygon the hole belongs to, and then determine $A \cap  B$.
+
 
 (伪代码；这段写在这里？还是其他位置？）
 
